@@ -1,9 +1,8 @@
-#!/usr/bin/execlineb -S0
+#!/command/with-contenv bashio
 # ==============================================================================
 # Home Assistant Community Add-on: FTP
-# Take down the S6 supervision tree when vsftpd log tailing fails
+# Catches output from vsFTPd server
 # ==============================================================================
-if -n { s6-test $# -ne 0 }
-if -n { s6-test ${1} -eq 256 }
-
-s6-svscanctl -t /var/run/s6/services
+bashio::log.info "Starting Log tailer..."
+touch /var/log/vsftpd.log
+exec tail -n0 -F /var/log/vsftpd.log

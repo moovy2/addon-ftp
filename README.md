@@ -34,7 +34,7 @@ While FTP is not entirely secure by its (unencrypted) nature, this add-on
 supports FTP over SSL (FTPS) and jails (chroot) the virtual users in their
 home directories.
 
-Of course, if you'd really want to, you could also use this add-on to again
+Of course, if you'd really want to, you could also use this add-on to gain
 access to your Home Assistant configuration via FTP.
 
 [:books: Read the full add-on documentation][docs]
@@ -82,7 +82,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2017-2021 Franck Nijhof
+Copyright (c) 2017-2025 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -104,7 +104,7 @@ SOFTWARE.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-ftp.svg
 [commits]: https://github.com/hassio-addons/addon-ftp/commits/main
@@ -120,10 +120,10 @@ SOFTWARE.
 [github-actions]: https://github.com/hassio-addons/addon-ftp/actions
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/hassio-addons/addon-ftp/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-ftp.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [passive-vs-active]: https://stackoverflow.com/a/1699163/299699
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
